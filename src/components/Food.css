@@ -1,0 +1,85 @@
+.food-page {
+  background: #0b0f1a;
+  color: white;
+}
+.food-hero {
+  /* background: url("./foodhero.avif") center/cover no-repeat;
+  display: flex;
+  align-items: flex-end;*/
+
+  padding-top:15px;
+}
+
+.food-hero h1 {
+  font-size: 50px;
+  font-weight: 300;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.food-intro {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.food-intro h2 {
+  font-size: 35px;
+  font-weight: 300;
+   font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.food-grid {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  padding: 40px;
+
+}
+.food-card {
+  width: 350px;
+  background: #111;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.food-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.food-card:hover {
+  transform: translateY(-10px);
+}
+.food-overlay {
+  padding: 20px;
+}
+
+.price {
+  color: gold;
+  margin: 10px 0;
+   font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.food-overlay ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.book-btn {
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid gold;
+  background: transparent;
+  color: gold;
+  cursor: pointer;
+}
+
+.book-btn:hover {
+  background: gold;
+  color: black;
+}

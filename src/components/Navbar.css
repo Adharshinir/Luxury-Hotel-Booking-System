@@ -1,0 +1,40 @@
+.topbar {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.innerleft {
+  display: flex;
+  justify-content: left;
+  margin-right: 200px;
+  font-size: 50px;
+  font-family: "lucida sans handwriting";
+  color: rgb(255, 255, 255);
+}
+
+.innerright {
+  display: flex;
+  justify-content: right;
+  margin-left: 350px;
+  /*margin-right: 10px;*/
+}
+
+.ele {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: rgb(186, 152, 1);
+}
+
+.btnstay {
+  padding: 0px;
+  border-radius: 8px;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-color: rgb(186, 152, 1);
+  color: antiquewhite;
+}
