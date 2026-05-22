@@ -1,16 +1,171 @@
-# React + Vite
+# Grand Horizon Hotel Website 🏨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern luxury hotel booking and hospitality website built using React and Vite.
 
-Currently, two official plugins are available:
+Grand Horizon provides users with an elegant digital experience to explore luxury hotels, discover dining experiences, browse events, and make room reservations through an interactive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🏠 Home Page
 
-## Expanding the ESLint configuration
+* Luxury hotel landing page
+* Brand introduction
+* Hotel highlights
+* Facilities showcase
+* Restaurant previews
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🏨 Hotel Listings
+
+Browse premium hotel branches with:
+
+* Hotel descriptions
+* Room categories
+* Pricing details
+* Location information
+* Property previews
+
+### 📅 Booking System
+
+Users can:
+
+* Enter guest information
+* Select check-in/check-out dates
+* Choose room types
+* Confirm bookings
+
+### 🍽 Dining Experience
+
+Buffet sections including:
+
+* Breakfast Buffet
+* Lunch Buffet
+* Dinner Buffet
+
+### 🎉 Events & Experiences
+
+Explore:
+
+* Hotel events
+* Premium experiences
+* Luxury hospitality offerings
+
+### 🌍 Branch Locations
+
+Available branches across multiple cities.
+
+---
+
+## 🛠 Tech Stack
+
+Frontend:
+
+* React
+* Vite
+* JavaScript (ES6+)
+* CSS3
+
+Development Tools:
+
+* ESLint
+
+---
+
+## 📂 Project Structure
+
+```
+hotel_webproject/
+
+├── public/
+│   ├── favicon.svg
+│   └── icons.svg
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Home.jsx
+│   │   ├── Hotels.jsx
+│   │   ├── Booking.jsx
+│   │   ├── Food.jsx
+│   │   ├── Events.jsx
+│   │   ├── Experiences.jsx
+│   │   └── Branches.jsx
+│   │
+│   ├── App.jsx
+│   └── App.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙ Installation
+
+Clone repository:
+
+```bash
+git clone <repository-url>
+
+cd hotel_webproject
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Open browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📦 Build Project
+
+Create production build:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🎯 Future Improvements
+
+* Backend integration
+* Payment gateway support
+* User authentication
+* Database connectivity
+* Booking history management
+* Search and filters
+* Mobile responsiveness improvements
+
+---
+
+## 🌟 Project Goal
+
+To create a premium hospitality web experience that combines hotel discovery, luxury branding, and room reservation capabilities within a clean and interactive React application.
+
+---
+
+Built using React + Vite 🚀
