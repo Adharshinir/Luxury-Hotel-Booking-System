@@ -1,4 +1,4 @@
-# Grand Horizon Hotel Website 🏨
+# Luxury Hotel booking system 🏨
 
 A modern luxury hotel booking and hospitality website built using React and Vite.
 
